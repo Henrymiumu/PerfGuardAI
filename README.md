@@ -83,17 +83,6 @@ Benchmark files are stored in `ai_agents/testdata/`.
 - If the user specifies **HKT / Hong Kong time**, the system converts it to UTC (UTC+8)
 - Guardrail: the Tool agent can override incorrect PM timestamps when the user explicitly wrote a calendar date/time
 
-## Configuration (optional)
-
-You can edit defaults directly in:
-
-- `ai_agents/settings.py`
-
-Useful settings:
-
-- `DEFAULT_OLLAMA_TIMEOUT` (seconds)
-- `DEFAULT_DEBATE_MAX_ROUNDS` (lower = faster)
-- `DEFAULT_SUMMARY_FORMAT_GUARD` / `DEFAULT_SUMMARY_SIMILARITY_GUARD`
 
 ## Supported metrics
 
